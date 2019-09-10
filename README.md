@@ -13,7 +13,7 @@ truffle develop
 ```
 test
 ```
-# Contact details
+# Contract details
 
 contract address 
 ```
