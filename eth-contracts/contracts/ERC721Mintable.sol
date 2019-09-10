@@ -525,7 +525,7 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
     function setTokenURI(uint256 tokenId) internal{
         require(_exists(tokenId));
 
-        _tokenURIs[tokenId] = strConcat(_baseTokenURI, uint2str(tokenId));
+        _tokenURIs[tokenId] = strConcat(_baseTokenURI, uint2str(tokenId),'.jpg');
     }
 
 }
@@ -539,7 +539,7 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
 //      -returns a true boolean upon completion of the function
 //      -calls the superclass mint and setTokenURI functions
 
-contract ERC721MintableComplete is ERC721Metadata('Real Estate Token', 'RET', 'https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/')
+contract ERC721MintableComplete is ERC721Metadata('Real Estate Token', 'RET', 'https://raw.githubusercontent.com/SID-FROSTY/Blockchain-Capstone/master/tokenImages/')
 {
     constructor() public {
 
