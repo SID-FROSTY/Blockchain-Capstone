@@ -25,7 +25,10 @@ contract address
 * [store front link](https://rinkeby.opensea.io/assets/real-estate-token-5)
 ```
 https://rinkeby.opensea.io/assets/real-estate-token-5
+
 ```
+* [Sold Token Transactions](https://rinkeby.opensea.io/assets/0x04e9b55bd703343b6c244a160318c6c59273ee35/9)
+
 # Project Resources
 
 * [Remix - Solidity IDE](https://remix.ethereum.org/)
