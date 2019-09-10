@@ -498,19 +498,19 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
     }
 
     // TODO: create external getter functions for name, symbol, and baseTokenURI
-    function getName() public returns(string memory name){
+    function name() external view returns(string memory name){
         return _name;
     }
 
-    function getSymbol() public returns(string memory symbol){
+    function symbol() external view returns(string memory symbol){
         return _symbol;
     }
 
-    function getBaseTokenURI() public returns(string memory uri){
+    function baseTokenURI() external view returns(string memory uri){
         return _baseTokenURI;
     }
 
-    function getTokenURI(uint256 tokenId) external view returns (string memory) {
+    function tokenURI(uint256 tokenId) external view returns (string memory) {
         require(_exists(tokenId));
         return _tokenURIs[tokenId];
     }
@@ -539,7 +539,7 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
 //      -returns a true boolean upon completion of the function
 //      -calls the superclass mint and setTokenURI functions
 
-contract ERC721MintableComplete is ERC721Metadata('akínita', 'RES', 'https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/')
+contract ERC721MintableComplete is ERC721Metadata('Real Estate Token', 'RET', 'https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/')
 {
     constructor() public {
 
