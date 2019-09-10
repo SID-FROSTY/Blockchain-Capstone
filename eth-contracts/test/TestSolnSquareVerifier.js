@@ -30,10 +30,7 @@ contract('TestSolnSquareVerifier', accounts => {
             const { proof: { a, b, c }, inputs: inputs } = proof_;
             
             let totalSupply = (await this.contract.totalSupply.call()).toNumber();
-
-            console.log(`${account_two}, ${5}, ${a}, ${b}, ${c}, ${inputs}`)
             let isCorrect = await this.contract.mintToken(account_two, 5, a, b, c, inputs, {from: account_one});
-
             let newTotalSupply = (await this.contract.totalSupply.call()).toNumber();
 
             assert.equal(totalSupply + 1, newTotalSupply, "Invalid proof result");
