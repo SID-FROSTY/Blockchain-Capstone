@@ -20,7 +20,7 @@ contract address
 0x04E9b55bd703343B6c244a160318c6c59273eE35
 ```
 
-* [abi](https://raw.githubusercontent.com/SID-FROSTY/Blockchain-Capstone/master/abi.json)
+* [abi](https://raw.githubusercontent.com/SID-FROSTY/Blockchain-Capstone/master/eth-contracts/abi.json)
 
 * [store front link](https://rinkeby.opensea.io/assets/real-estate-token-5)
 ```
