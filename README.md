@@ -15,9 +15,14 @@ test
 ```
 # Contract details
 
-contract address 
+SolnSquareVerifier (ERC721MintableComplete) 
 ```
 0x04E9b55bd703343B6c244a160318c6c59273eE35
+```
+
+SquareVerifier (Verifier): 
+```
+0x20c051734B37Ce10Fb70fa9268a033Bb923af7B9
 ```
 
 * [abi](https://raw.githubusercontent.com/SID-FROSTY/Blockchain-Capstone/master/eth-contracts/abi.json)
