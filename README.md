@@ -25,7 +25,9 @@ SquareVerifier (Verifier):
 0x20c051734B37Ce10Fb70fa9268a033Bb923af7B9
 ```
 
-* [abi](https://raw.githubusercontent.com/SID-FROSTY/Blockchain-Capstone/master/eth-contracts/abi.json)
+* [SolnSquareVerifier Abi](https://raw.githubusercontent.com/SID-FROSTY/Blockchain-Capstone/master/eth-contracts/solnSquareVerifierAbi.json)
+
+* [Verifier Abi](https://raw.githubusercontent.com/SID-FROSTY/Blockchain-Capstone/master/eth-contracts/verifierAbi.json)
 
 * [store front link](https://rinkeby.opensea.io/assets/real-estate-token-5)
 ```
