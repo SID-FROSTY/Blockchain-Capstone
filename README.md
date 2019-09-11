@@ -1,6 +1,7 @@
-# Udacity Blockchain Capstone
+# Real Estate Marketplace
+This project uses ERC721 token standred to create unique tokens (non-fungible).A minted token will represent title to the properties. Before minting a token, it will verify that the property is owned by that person.It uses zk-SNARKs to create a verification system which can prove that the person has title to the property without revealing that specific information on the property. This project is integrated with OpenSea to expose the application to user so that transactions can be carried out on token.
 
-The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
+
 
 # Testing
 Open in the repo directory and change directory to contract directory i.eeth-contract
@@ -9,6 +10,8 @@ Open in the repo directory and change directory to contract directory i.eeth-con
 cd ./eth-contracts
 
 truffle develop
+
+truffle compile
 ```
 ```
 test
